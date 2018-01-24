@@ -37,4 +37,4 @@ except:
 
 print target + " adresine " + str(say) + " kadar Mail atildi\n"
 so = raw_input("[+] Done...!")
-os.system("python mail.py")
+os.system("python mail-bomb.py")
