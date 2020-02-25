@@ -30,7 +30,7 @@ while True:
 	except:
 		dene += 1
 		print "Malesef :", dene
-		if dene == "5":
+		if dene == 5:
 			break
 
 print say, " kere acildi...."
