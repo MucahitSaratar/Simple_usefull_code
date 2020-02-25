@@ -1,1 +1,1 @@
-# Istek, öneri ve şikayetler facebook.com/TRRE.GEN adresine
+# Istek, öneri ve şikayetler yazilimgunlugum222@gmail.com adresine
