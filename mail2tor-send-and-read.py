@@ -61,8 +61,8 @@ def mail_at(kime,konu,icerik,debug="yok"):
 		print "mail gonderiliyor....."
 	br.open(site3)
 	br.select_form(nr=0)
-	br.find_control("request_mdn").items[0].selected=True
-	br.find_control("request_dr").items[0].selected=True
+	#br.find_control("request_mdn").items[0].selected=True
+	#br.find_control("request_dr").items[0].selected=True
 	br.form["mailprio"] = ["1"]
 	br.form["send_to"] = kime
 	br.form["subject"] = konu
