@@ -64,9 +64,9 @@ def mail_at(kime,konu,icerik,debug="yok"):
 	br.find_control("request_mdn").items[0].selected=True
 	br.find_control("request_dr").items[0].selected=True
 	br.form["mailprio"] = ["1"]
-	br.form["send_to"] = "XXXXXXX@mail2tor.com"
-	br.form["subject"] = "bu bir python hediyesidir xd"
-	br.form["body"] = "burasi da python ile yazilan govde kismi"
+	br.form["send_to"] = kime
+	br.form["subject"] = konu
+	br.form["body"] = icerik
 	br.submit(name="send")
 	if debug == "olsun":
 		print "mail atildi..."
